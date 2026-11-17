@@ -80,9 +80,10 @@ model; `b2_mammoclip_640x1024_imagesplit` = leakage experiment; `b4_dinov2b_518x
 
 ## Use of AI tools
 The authors chose the research question, approved each design decision and reviewed the results. An AI coding
-assistant (Claude Code, Anthropic) helped write and run the code under their direction. Every number comes from
-the deterministic scripts in this repository and can be reproduced without the assistant. Section 4.7 of the
-paper describes the AI use in full. No language model is part of the model or the concept extractor.
+assistant (Claude Code, Anthropic) helped write and run the code under guided direction. Every number comes from
+the reviewed deterministic scripts in this repository and can be reproduced without the assistant. Section 4.7 of
+the paper ("Use of AI tools in the research process") names the tool and model versions and lists the four
+checks applied to the code and results. No language model is part of the model or the concept extractor.
 
 ## Licences
 - Code: MIT (`LICENSE`).
