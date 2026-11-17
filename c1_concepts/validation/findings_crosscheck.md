@@ -1,6 +1,6 @@
 # Cross-check against the dataset's 'Findings' column (independent radiologist summary)
 
-### A. Claude's reference labels, 150 breasts
+### A. Reference labels (LLM reader), 150 breasts
 
 Overall: 504/517 Findings-stated concepts are in the reference (97.5%).
 

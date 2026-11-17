@@ -53,7 +53,7 @@ def main():
     fnd = findings_concepts(img)
     gold = pd.concat([read_gold(HERE / "validation" / f"gold_{s}.txt") for s in ("dev", "test")])
     L = ["# Cross-check against the dataset's 'Findings' column (independent radiologist summary)", ""]
-    l1, flags = compare(gold, fnd.loc[gold.index], f"A. Claude's reference labels, {len(gold)} breasts")
+    l1, flags = compare(gold, fnd.loc[gold.index], f"A. Reference labels (LLM reader), {len(gold)} breasts")
     L += l1 + ["", "Cases where Findings states a concept that the reference labels lack:"]
     for b, c in flags:
         f = " | ".join(img.loc[img.breast == b, "findings"].fillna("").unique())
