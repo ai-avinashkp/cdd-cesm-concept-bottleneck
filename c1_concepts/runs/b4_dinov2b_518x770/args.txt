@@ -1,0 +1,1 @@
+{'backbone': 'dinov2b', 'width': 518, 'height': 770, 'batch': 6, 'accum': 1, 'lr': 2e-05, 'epochs': 12, 'folds': '0,1,2,3,4', 'run': 'b4_dinov2b_518x770', 'bench': False, 'no_gc': True}

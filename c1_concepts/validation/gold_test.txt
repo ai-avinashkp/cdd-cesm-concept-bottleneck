@@ -1,0 +1,58 @@
+# Reference concept labels for the held-out TEST sample, read from the report text following GUIDELINE.md.
+# Annotator: Claude (LLM reader). Written AFTER extractor v2 was frozen and WITHOUT running it on these breasts.
+# Decisions not covered by the guideline (made clinically, before scoring):
+#   12_L "ductal enhancement" = NME with ductal distribution (nme + dist_linear_ductal)
+#   227_R "focal non mass enhancement" = NME, focal *distribution* (not a focus): nme only
+#   191_R "non enhancing mass" = non_enhancing, not mass_enh
+#   165_R "ring enhancing lesion" = an enhancing mass with rim enhancement
+# Format: breast | LE: concepts | DES: concepts   ("-" = none)
+2_L | postop | -
+316_L | edema, skin_nipple, mass, shape_irregular, high_density, margin_spiculated, calc_benign | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+12_L | asymmetry, imln | nme, dist_linear_ductal
+123_R | distortion, skin_nipple, calc_suspicious, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated, satellites, focus_foci
+61_R | - | -
+49_L | - | -
+168_L | mass, shape_irregular, high_density, margin_indistinct, edema | mass_enh, heterogeneous, shape_irregular
+224_L | - | focus_foci
+317_L | postop, mass, shape_irregular, high_density, margin_indistinct | mass_enh, heterogeneous, shape_irregular, stippled
+239_R | edema, skin_nipple, mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+209_L | mass, shape_irregular, high_density, margin_indistinct, edema | mass_enh, heterogeneous, shape_irregular
+59_R | mass, shape_irregular, high_density, margin_spiculated, calc_suspicious, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+121_R | calc_benign | -
+247_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+153_R | mass, shape_oval_round, margin_circumscribed, imln | non_enhancing
+315_L | mass, shape_irregular, high_density, margin_indistinct, shape_oval_round, margin_circumscribed | mass_enh, heterogeneous, shape_irregular
+216_R | mass, shape_irregular, high_density, margin_spiculated, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+316_R | edema, skin_nipple, calc_benign | non_enhancing
+148_R | mass, shape_oval_round, margin_circumscribed, duct | non_enhancing
+317_R | - | stippled
+273_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular
+165_R | mass, shape_oval_round, margin_circumscribed, calc_benign | mass_enh, rim, shape_oval_round, margin_circumscribed, homogeneous
+106_L | distortion, skin_nipple | rim
+125_L | mass, shape_oval_round, margin_circumscribed | non_enhancing
+8_L | calc_benign | -
+155_R | - | -
+173_L | postop, mass, shape_irregular, high_density, margin_indistinct | mass_enh, heterogeneous, shape_irregular
+241_R | mass, margin_circumscribed | non_enhancing
+124_R | asymmetry, calc_suspicious | nme, dist_segmental
+122_R | mass, shape_irregular, high_density, margin_indistinct | mass_enh, heterogeneous, shape_irregular
+106_R | imln | -
+297_L | edema, skin_nipple, mass, shape_irregular, high_density, margin_indistinct | nme, heterogeneous, dist_regional_diffuse
+261_L | asymmetry | nme, dist_segmental
+227_R | asymmetry, calc_suspicious | nme
+263_L | calc_benign | focus_foci
+191_R | mass, shape_oval_round, margin_circumscribed, calc_benign | non_enhancing, stippled
+227_L | - | -
+322_R | - | -
+291_R | mass, shape_irregular, high_density, margin_spiculated, skin_nipple | mass_enh, heterogeneous, shape_irregular, margin_spiculated, satellites
+298_R | - | -
+186_R | postop, calc_benign | non_enhancing
+112_L | - | -
+161_L | mass, shape_irregular, high_density, margin_indistinct, calc_benign | mass_enh, heterogeneous, shape_irregular
+34_L | - | -
+228_L | postop | non_enhancing
+63_R | - | -
+50_L | asymmetry | -
+296_R | calc_benign | -
+230_R | - | -
+306_R | edema, skin_nipple, mass, shape_oval_round, high_density, margin_indistinct, calc_suspicious | mass_enh, heterogeneous, shape_oval_round, margin_irregular, nme, dist_regional_diffuse

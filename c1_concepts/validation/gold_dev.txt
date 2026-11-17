@@ -1,0 +1,103 @@
+# Reference concept labels for the dev sample, read from the report text following GUIDELINE.md.
+# Annotator: Claude (LLM reader), blind to the extractor's output. To be spot-checked by the author.
+# Format: breast | LE: concepts | DES: concepts   ("-" = none)
+232_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+108_L | mass, shape_irregular, high_density, margin_indistinct, edema | mass_enh, heterogeneous, shape_irregular
+69_L | calc_benign | -
+205_L | mass, shape_oval_round, high_density, margin_indistinct, edema | mass_enh, rim, shape_oval_round, margin_irregular
+211_L | mass, shape_oval_round, margin_circumscribed | mass_enh, rim, shape_oval_round, margin_circumscribed, nme, dist_segmental
+215_R | - | -
+6_L | mass, shape_oval_round, high_density, margin_indistinct | mass_enh, shape_oval_round, septations, margin_circumscribed
+174_L | calc_benign, mass, shape_irregular, high_density, margin_indistinct | mass_enh, heterogeneous, shape_irregular
+242_R | postop, mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+7_L | mass, high_density, shape_irregular, margin_spiculated, skin_nipple | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+152_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated, satellites
+192_R | calc_benign | -
+234_L | calc_benign | -
+292_L | calc_benign | -
+160_L | postop, edema, calc_benign | non_enhancing
+45_L | asymmetry, mass, shape_oval_round, margin_circumscribed | nme, dist_linear_ductal, mass_enh, homogeneous, shape_oval_round, margin_circumscribed
+293_R | mass, shape_oval_round, high_density, margin_circumscribed | mass_enh, rim, shape_oval_round
+300_R | postop, edema | non_enhancing
+24_R | mass, high_density, shape_oval_round, margin_indistinct, calc_suspicious | mass_enh, heterogeneous, shape_oval_round, margin_irregular, satellites
+104_R | - | -
+5_R | - | -
+304_R | mass, shape_irregular, high_density, margin_spiculated, asymmetry, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated, nme, dist_linear_ductal
+187_R | asymmetry, duct | nme, dist_linear_ductal
+169_R | edema, skin_nipple | nme, dist_regional_diffuse
+314_R | - | -
+145_R | calc_benign | -
+83_L | asymmetry, edema, distortion, calc_benign | faint
+295_L | mass, shape_oval_round, margin_circumscribed | mass_enh, faint, homogeneous, shape_oval_round, margin_circumscribed
+71_L | - | focus_foci
+77_R | mass, shape_oval_round, margin_indistinct | mass_enh, faint, septations, shape_oval_round, margin_circumscribed
+312_L | mass, shape_oval_round, margin_indistinct | mass_enh, heterogeneous, shape_oval_round, margin_irregular
+303_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+181_L | asymmetry, imln | heterogeneous
+55_R | postop, asymmetry, skin_nipple | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+188_R | mass, shape_irregular, high_density, margin_spiculated, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+31_R | mass, shape_oval_round, high_density, margin_indistinct | stippled
+139_R | postop, edema | faint
+172_R | mass, shape_oval_round, margin_circumscribed | non_enhancing
+229_R | mass, shape_oval_round, margin_circumscribed, imln | non_enhancing
+197_L | calc_benign | -
+260_R | mass, shape_irregular, high_density, margin_spiculated, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+10_L | - | focus_foci
+275_L | mass, shape_irregular, high_density, margin_spiculated, skin_nipple, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+282_L | asymmetry | -
+318_R | edema, skin_nipple, calc_suspicious | mass_enh, heterogeneous, shape_irregular
+3_R | duct | -
+73_L | duct | -
+214_L | - | -
+128_L | asymmetry, mass, shape_oval_round, margin_indistinct, calc_suspicious | faint, focus_foci, shape_oval_round
+265_R | mass, shape_irregular, high_density, margin_indistinct | mass_enh, heterogeneous, shape_irregular, stippled
+262_R | calc_benign | -
+9_L | calc_benign | -
+119_R | calc_benign | -
+29_R | - | -
+141_L | calc_benign, asymmetry | -
+35_R | postop, edema | non_enhancing
+81_L | imln | -
+96_R | asymmetry, mass, shape_irregular, high_density, margin_indistinct, edema | mass_enh, heterogeneous, shape_irregular
+257_L | - | -
+66_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+10_R | postop, edema | focus_foci
+113_L | mass, shape_irregular, high_density, margin_indistinct, edema, calc_benign | mass_enh, heterogeneous, shape_irregular
+110_L | calc_suspicious | nme, clumped, dist_linear_ductal
+6_R | calc_benign | -
+160_R | postop, edema, calc_benign | non_enhancing
+259_L | mass, shape_irregular, high_density, margin_indistinct, calc_suspicious | mass_enh, heterogeneous, shape_irregular
+41_L | - | -
+264_L | mass, shape_irregular, high_density, margin_spiculated, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+275_R | - | -
+279_R | mass, shape_oval_round, high_density, margin_circumscribed, calc_suspicious, edema | nme, dist_regional_diffuse
+62_R | imln | -
+174_R | postop, edema | non_enhancing
+131_L | asymmetry | nme, dist_regional_diffuse
+267_L | distortion, skin_nipple, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+300_L | - | -
+115_R | asymmetry, skin_nipple, edema | nme, clumped, dist_segmental
+76_L | - | -
+212_L | mass, shape_irregular, high_density, margin_spiculated, edema | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+218_L | asymmetry, calc_suspicious | nme, dist_segmental, satellites
+92_R | - | -
+114_R | distortion | mass_enh, faint, shape_irregular
+51_L | calc_benign | -
+97_R | - | -
+325_L | - | -
+274_R | duct | nme, dist_linear_ductal
+238_R | mass, shape_oval_round, margin_indistinct | mass_enh, homogeneous, shape_oval_round, margin_circumscribed
+151_L | postop, edema | non_enhancing
+126_R | - | -
+280_L | mass, shape_irregular, high_density, margin_indistinct, skin_nipple, calc_suspicious | mass_enh, heterogeneous, shape_irregular
+288_L | edema, skin_nipple | nme, heterogeneous, dist_regional_diffuse
+225_R | - | -
+158_L | - | -
+85_R | distortion | faint
+3_L | mass, high_density, shape_irregular, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
+220_L | - | -
+326_L | asymmetry | nme, dist_segmental
+107_L | - | -
+94_R | asymmetry | mass_enh, homogeneous, shape_irregular, margin_spiculated
+55_L | - | -
+73_R | calc_benign, asymmetry, duct | nme, dist_linear_ductal

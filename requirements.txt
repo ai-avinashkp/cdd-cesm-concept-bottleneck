@@ -1,0 +1,11 @@
+# Versions used for the paper (Python 3.10). For GPU training install the CUDA build of torch, e.g.
+#   pip install torch==2.11.0 torchvision==0.26.0 --index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0
+torchvision==0.26.0
+timm==1.0.29
+efficientnet_pytorch==0.7.1
+omegaconf==2.3.0
+numpy==2.2.6
+pandas==2.3.3
+scikit-learn==1.7.2
+pillow==12.3.0

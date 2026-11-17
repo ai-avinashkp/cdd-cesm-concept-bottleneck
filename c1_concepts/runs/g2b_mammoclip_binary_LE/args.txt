@@ -1,0 +1,1 @@
+{'backbone': 'mammoclip_b2', 'width': 640, 'height': 1024, 'batch': 6, 'accum': 1, 'lr': 0.0001, 'epochs': 12, 'folds': '0,1,2,3,4', 'run': 'g2b_mammoclip_binary_LE', 'bench': False, 'no_gc': False, 'seed': 0, 'amp': 'fp16', 'warmup': 0.15, 'clip': 0.0, 'freeze_epochs': 0, 'task': 'binary', 'energy': 'LE', 'split': 'patient'}

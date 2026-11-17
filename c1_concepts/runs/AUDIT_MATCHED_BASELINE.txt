@@ -1,0 +1,46 @@
+breasts 566, patients 326, images 2006, labels [189 194 183]
+integrity OK: each image predicted once per run, and only by the model that did not train on its patient
+max folds per patient: 1
+
+--- 2. per-seed (paper Table: CBM seq head vs black-box mean)
+seed 0  black box [0.698 0.849 0.866 0.786 0.438]  CBM [0.701 0.867 0.886 0.829 0.536]  stacked black box [0.719 0.867 0.887 0.829 0.536]
+seed 1  black box [0.691 0.848 0.869 0.78  0.397]  CBM [0.735 0.871 0.894 0.828 0.577]  stacked black box [0.723 0.861 0.888 0.811 0.557]
+seed 2  black box [0.701 0.853 0.888 0.78  0.448]  CBM [0.728 0.872 0.901 0.829 0.557]  stacked black box [0.7   0.864 0.897 0.807 0.562]
+
+--- 3. ensemble
+columns: ['acc', 'macroAUC', 'BvM AUC', 'NvB AUC', 'benign recall']
+CBM (paper)                            [0.733 0.875 0.901 0.836 0.567]
+black box mean (paper)                 [0.717 0.858 0.883 0.792 0.454]
+black box stacked (same 2nd stage)     [0.719 0.871 0.895 0.825 0.562]
+concepts + black-box features          [0.751 0.884 0.903 0.84  0.603]
+
+CBM (paper)  minus  black box mean (paper)
+  acc            +0.016 [-0.018, +0.051]  two-sided p=0.388
+  macroAUC       +0.017 [+0.000, +0.034]  two-sided p=0.046
+  BvM AUC        +0.018 [+0.000, +0.037]  two-sided p=0.049
+  NvB AUC        +0.044 [+0.011, +0.077]  two-sided p=0.010
+  benign recall  +0.113 [+0.038, +0.191]  two-sided p=0.005
+
+CBM (paper)  minus  black box stacked (same 2nd stage)
+  acc            +0.014 [-0.026, +0.053]  two-sided p=0.472
+  macroAUC       +0.004 [-0.012, +0.021]  two-sided p=0.598
+  BvM AUC        +0.006 [-0.013, +0.026]  two-sided p=0.568
+  NvB AUC        +0.011 [-0.019, +0.042]  two-sided p=0.465
+  benign recall  +0.005 [-0.073, +0.084]  two-sided p=0.957
+
+black box stacked (same 2nd stage)  minus  black box mean (paper)
+  acc            +0.002 [-0.027, +0.030]  two-sided p=0.982
+  macroAUC       +0.013 [+0.001, +0.024]  two-sided p=0.021
+  BvM AUC        +0.012 [-0.005, +0.030]  two-sided p=0.154
+  NvB AUC        +0.033 [+0.008, +0.057]  two-sided p=0.009
+  benign recall  +0.108 [+0.049, +0.170]  two-sided p=0.000
+
+breasts with LE label != DES label: 48;  breast label there: {'Benign': np.int64(48)}
+  CBM (paper)                            accuracy on those 0.646   on the other 518: 0.741
+  black box mean (paper)                 accuracy on those 0.396   on the other 518: 0.747
+  black box stacked (same 2nd stage)     accuracy on those 0.521   on the other 518: 0.737
+  concepts + black-box features          accuracy on those 0.646   on the other 518: 0.761
+CBM (paper) [[160, 29, 0], [59, 110, 25], [12, 26, 145]]
+black box mean (paper) [[166, 22, 1], [81, 88, 25], [11, 20, 152]]
+black box stacked (same 2nd stage) [[147, 40, 2], [57, 109, 28], [7, 25, 151]]
+concepts + black-box features [[154, 34, 1], [50, 117, 27], [8, 21, 154]]

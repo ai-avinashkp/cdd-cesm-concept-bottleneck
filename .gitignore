@@ -1,0 +1,14 @@
+# never commit data, weights, credentials or caches
+.env
+*.env
+weights/**/*.tar
+weights/**/*.pt
+*.pt
+*.npy
+cache_*/
+pipeline/tables/
+c1_concepts/runs/*/ckpt_*
+c1_concepts/runs/*/hpc_logs/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

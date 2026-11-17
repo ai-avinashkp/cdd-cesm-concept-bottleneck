@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code or the concept labels, please cite the paper and the CDD-CESM dataset."
+title: "Concept bottleneck model for contrast-enhanced mammography (CDD-CESM): code and report-derived concept labels"
+authors:
+  - family-names: Prajapati
+    given-names: Avinash Kumar
+    affiliation: "Dr B R Ambedkar National Institute of Technology Jalandhar"
+  - family-names: Khosla
+    given-names: Arun
+    affiliation: "Dr B R Ambedkar National Institute of Technology Jalandhar"
+license: MIT
+repository-code: "https://github.com/ai-avinashkp/cdd-cesm-concept-bottleneck"
+keywords:
+  - contrast-enhanced mammography
+  - concept bottleneck model
+  - explainable artificial intelligence
+  - BI-RADS lexicon
+references:
+  - type: article
+    title: "Categorized contrast enhanced mammography dataset for diagnostic and artificial intelligence research"
+    authors:
+      - family-names: Khaled
+        given-names: Rana
+    journal: "Scientific Data"
+    volume: 9
+    start: 122
+    year: 2022

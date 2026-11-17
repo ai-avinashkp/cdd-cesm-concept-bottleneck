@@ -1,0 +1,36 @@
+breast,image,concept,reason
+291_R,P291_R_DM_MLO,le_imln,"source conflict: Findings states it, report does not ('Two high density masses with speculated margin and intraductal extension and nipple retraction$IMLN')"
+174_L,P174_L_CM_MLO,des_margin_circumscribed,"source conflict: Findings states it, report does not ('Enhancing mass with circumscribed margin')"
+128_L,P128_L_DM_MLO,le_calc_benign,"source conflict: Findings states it, report does not ('Asymmetrical increased density and equal density nodule with indistinct margin and overlying linear branching macrocalcifications')"
+156_L,P156_L_CM_CC,des_non_enhancing,"source conflict: Findings states it, report does not ('Non enhancement')"
+87_L,P87_L_CM_CC,des_focus_foci,"source conflict: Findings states it, report does not ('Enhancing foci with ductal non mass enhancement')"
+122_L,P122_L_CM_MLO,des_margin_spiculated,"source conflict: Findings states it, report does not ('Three heterogenously enhancing masses with speculated margin and nipple retraction')"
+55_R,P55_R_DM_MLO,le_edema,"source conflict: Findings states it, report does not ('Edema and postoperative scar with two focal asymmetrical increased densities and nipple retraction')"
+280_L,P280_L_DM_CC,le_distortion,"source conflict: Findings states it, report does not ('Architectural distortion with overlying microcalcifications and nipple retraction')"
+2_R,P2_R_DM_CC,le_calc_benign,"source conflict: Findings states it, report does not ('Multiple equal density  masses$Benign macrocalcifications')"
+82_L,P82_L_CM_CC,des_heterogeneous,"source conflict: Findings states it, report does not ('Multiple heterogenously enhancing  masses with speculated margin')"
+162_R,P162_R_DM_CC,le_calc_suspicious,"source conflict: Findings states it, report does not ('Asymmetrical increased density and cluster of microcalcifications')"
+162_R,P162_R_DM_CC,le_asymmetry,"source conflict: Findings states it, report does not ('Asymmetrical increased density and cluster of microcalcifications')"
+271_L,P271_L_CM_MLO,des_margin_spiculated,"source conflict: Findings states it, report does not ('Three heterogenously enhancing masses with speculated margin')"
+241_L,P241_L_DM_CC,le_edema,"source conflict: Findings states it, report does not ('Edema and postoperative scar$Benign macrocalcifications')"
+285_L,P285_L_DM_MLO,le_margin_indistinct,"source conflict: Findings states it, report does not ('Focal asymmetry and two equal density mass with obscured margin')"
+181_L,P181_L_CM_CC,des_faint,"source conflict: Findings states it, report does not ('Faint patchy areas of heterogenous enhancement')"
+156_L,P156_L_CM_MLO,des_non_enhancing,"source conflict: Findings states it, report does not ('Non enhancement')"
+181_L,P181_L_CM_MLO,des_faint,"source conflict: Findings states it, report does not ('Faint patchy areas of heterogenous enhancement')"
+265_R,P265_R_DM_MLO,le_asymmetry,"source conflict: Findings states it, report does not ('Asymmetrical increased density')"
+147_R,P147_R_DM_MLO,le_asymmetry,"source conflict: Findings states it, report does not ('Asymmetrical increased density')"
+94_R,P94_R_CM_CC,des_faint,"source conflict: Findings states it, report does not ('Faintly enhancing mass with speculated margin')"
+146_R,P146_R_DM_MLO,le_margin_indistinct,"source conflict: Findings states it, report does not ('Multiple high density masses with indistinct margin')"
+82_L,P82_L_CM_MLO,des_heterogeneous,"source conflict: Findings states it, report does not ('Multiple heterogenously enhancing  masses with speculated margin')"
+2_R,P2_R_DM_MLO,le_calc_benign,"source conflict: Findings states it, report does not ('Multiple equal density masses$Benign macrocalcifications')"
+281_R,P281_R_DM_MLO,le_asymmetry,"source conflict: Findings states it, report does not ('Asymmetrical increased density')"
+319_L,P319_L_DM_CC,le_mass,"source conflict: Findings states it, report does not ('Circumscribed mixed iso and low density mass')"
+271_L,P271_L_CM_CC,des_margin_spiculated,"source conflict: Findings states it, report does not ('Three heterogenously enhancing masses with speculated margin')"
+319_L,P319_L_DM_MLO,le_mass,"source conflict: Findings states it, report does not ('Circumscribed mixed iso and low density mass')"
+128_L,P128_L_DM_CC,le_calc_benign,"source conflict: Findings states it, report does not ('Asymmetrical increased density and equal density nodule with indistinct margin and overlying linear branching macrocalcifications')"
+55_R,P55_R_DM_CC,le_edema,"source conflict: Findings states it, report does not ('Edema and postoperative scar with two focal asymmetrical increased densities and nipple retraction')"
+187_R,P187_R_DM_CC,le_mass,guideline call: 'ill defined lesion' not counted as mass
+152_L,P152_L_DM_MLO,le_calc_suspicious,guideline call: 'scattered calcifications' in a malignant mass
+152_L,P152_L_DM_CC,le_calc_suspicious,guideline call: 'scattered calcifications' in a malignant mass
+152_L,P152_L_DM_MLO,le_calc_benign,guideline call: 'scattered calcifications' in a malignant mass
+152_L,P152_L_DM_CC,le_calc_benign,guideline call: 'scattered calcifications' in a malignant mass
