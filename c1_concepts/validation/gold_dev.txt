@@ -1,5 +1,5 @@
 # Reference concept labels for the dev sample, read from the report text following GUIDELINE.md.
-# Annotator: Claude (LLM reader), blind to the extractor's output. To be spot-checked by the author.
+# Annotator: Claude (LLM reader), blind to the extractor's output. Spot-checked by an author on 20 breasts (2026-11-17): all 20 agreed.
 # Format: breast | LE: concepts | DES: concepts   ("-" = none)
 232_L | mass, shape_irregular, high_density, margin_spiculated | mass_enh, heterogeneous, shape_irregular, margin_spiculated
 108_L | mass, shape_irregular, high_density, margin_indistinct, edema | mass_enh, heterogeneous, shape_irregular

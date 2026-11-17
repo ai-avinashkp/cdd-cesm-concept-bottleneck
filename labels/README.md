@@ -1,4 +1,4 @@
-# CEM-lexicon concept labels for CDD-CESM (v2.2, 2026-11-01)
+# CEM-lexicon concept labels for CDD-CESM (v2.2, 2026-11-17)
 
 Derived, per-image and per-breast labels for **35 radiology concepts** (16 low-energy / BI-RADS
 mammography, 19 recombined / ACR CEM lexicon) for the public **CDD-CESM** dataset (2,006 images, 566 breasts,
@@ -20,7 +20,8 @@ diagnostic and artificial intelligence research", *Scientific Data* 9:122 (2022)
 - **Extraction:** rule-based extraction from the CDD-CESM radiology reports, with clause-level negation,
   typo normalisation and per-energy scoping. Code: `concepts.py`.
 - **Validation:** against reference labels read from the reports following `GUIDELINE.md`.
-  - The reference reader was an LLM (Claude), not a radiologist.
+  - The reference reader was an LLM (Claude), not a radiologist. An author re-read 20 of the sampled breasts
+    by hand and agreed with all of their reference labels.
   - Dev set: 100 breasts.
   - Held-out test set: 50 breasts, disjoint patients, extractor frozen. **Micro-F1 0.993** (3 errors in
     1,800 cells; all fixed afterwards).
