@@ -79,10 +79,10 @@ model; `b2_mammoclip_640x1024_imagesplit` = leakage experiment; `b4_dinov2b_518x
 `b2_breastlabel_s*` = breast-label retraining; `b0` = an early pilot not reported in the paper.
 
 ## Use of AI tools
-The code was written and run under the authors' direction with an AI coding assistant (Claude Code,
-Anthropic); the reference labels used to validate the extractor were produced by the same assistant. Details are in
-Sections 3.3 and 4.7 of the paper. No language model is part of the
-model or the concept extractor.
+The authors chose the research question, approved each design decision and reviewed the results. An AI coding
+assistant (Claude Code, Anthropic) helped write and run the code under their direction. Every number comes from
+the deterministic scripts in this repository and can be reproduced without the assistant. Section 4.7 of the
+paper describes the AI use in full. No language model is part of the model or the concept extractor.
 
 ## Licences
 - Code: MIT (`LICENSE`).
