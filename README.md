@@ -3,8 +3,8 @@
 Code, report-derived concept labels and saved predictions for the paper:
 
 > A. K. Prajapati, A. Khosla. *Interpretable diagnosis of contrast-enhanced mammography with a concept
-> bottleneck model trained on report-derived lexicon descriptors.* Submitted to *Computers in Biology and
-> Medicine*, 2026.
+> bottleneck model trained on report-derived lexicon descriptors.* Submitted to *Computerized Medical
+> Imaging and Graphics*, 2026.
 
 The model predicts 35 BI-RADS / CEM-lexicon descriptors (16 low-energy, 19 recombined-image) from each image
 and classifies each breast as normal, benign or malignant **only from those descriptors**. It is compared with
